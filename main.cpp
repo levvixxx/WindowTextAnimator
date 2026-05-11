@@ -41,8 +41,16 @@ int startTyping(){
     }
 }
 
+class Exit{
+    public:
+        ~Exit(){
+            SetWindowTextA(h,title.c_str());
+        }
+};
+
 
 int main(){
+    Exit exit;
     while(true){
         if(searchAp() == 0){
             if(startTyping() == 0){
