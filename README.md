@@ -1,2 +1,3 @@
 # WindowTextAnimator
-WindowTextAnimator
+
+Программа для создания эффекта «печатной машинки» в заголовке любого окна Windows.
